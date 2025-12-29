@@ -3,12 +3,12 @@ uvicorn[standard]>=0.23
 pydantic>=2
 pydantic-settings>=2
 pandas
-numpy
+#numpy
 scikit-learn
 pymongo
 prometheus_client
 torch
-#pyyaml
+pyyaml
 requests
 python-dotenv
 pytest
