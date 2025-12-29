@@ -1,0 +1,20 @@
+# Training configuration
+dataset:
+  path: data/nyc_taxi.csv
+  value_column: value
+training:
+  window_size: 30
+  batch_size: 64
+  epochs: 20
+  lr: 1e-2
+  val_split: 0.1
+model:
+  latent_size: 8
+  hidden_size: 256
+  num_layers: 2
+output:
+  model_dir: models
+  model_name: lstm_ae.pthcleae
+  scaler_name: scaler.npz
+threshold:
+  percentile: 85.0

@@ -1,0 +1,14 @@
+fastapi>=0.110
+uvicorn[standard]>=0.23
+pydantic>=2
+pydantic-settings>=2
+pandas
+numpy
+scikit-learn
+pymongo
+prometheus_client
+torch
+pyyaml
+requests
+python-dotenv
+pytest
