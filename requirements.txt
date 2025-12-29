@@ -8,7 +8,7 @@ scikit-learn
 pymongo
 prometheus_client
 torch
-pyyaml
+#pyyaml
 requests
 python-dotenv
 pytest
