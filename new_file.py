@@ -1,2 +1,1 @@
-#hello
-#testing 
+print("hello")
