@@ -44,8 +44,8 @@ jobs:
             docker login ghcr.io -u ${{ github.repository_owner }} -p ${{ secrets.GHCR_PAT }}
             
             cd ${{ secrets.DOCKER_COMPOSE_DIR }}
-            docker compose pull
-            docker compose down
-            docker compose up -d
+            docker-compose pull
+            docker-compose down
+            docker-compose up -d
 
   
